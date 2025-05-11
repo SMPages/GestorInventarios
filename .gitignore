@@ -1,0 +1,89 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build Results of VS2015+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Publish Web Output
+*.Publish.xml
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.log
+*.tlog
+*.cache
+*.pdb
+*.mdb
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+*.temp
+*.svclog
+*.scc
+*.orig
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sbr
+*.scc
+*.vssscc
+*.vspscc
+*.vssscc
+*.vsmdi
+*.testsettings
+*.vsix
+*.docstates
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Rider
+.idea/
+*.sln.iml 
