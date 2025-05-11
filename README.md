@@ -1,8 +1,8 @@
 # Gestor de Inventarios Asocebú
 
-¡Bienvenido al sistema de gestión de inventario de equipos de cómputo para Asocebú!
+¡Hola! Este es un sistema de gestión de inventario de equipos de cómputo desarrollado especialmente para la prueba técnica de Asocebú.
 
-Este proyecto es una aplicación de escritorio desarrollada en **VB.NET (Windows Forms)** con acceso a base de datos **SQL Server**. Permite gestionar equipos y departamentos, realizar operaciones CRUD, aplicar filtros avanzados, exportar datos y mucho más.
+La aplicación está hecha en **VB.NET (Windows Forms)** y utiliza **SQL Server** como base de datos. Permite administrar equipos y departamentos, realizar búsquedas, aplicar filtros, exportar datos y mucho más, todo con una interfaz amigable y moderna.
 
 ---
 
@@ -18,8 +18,8 @@ git clone https://github.com/SMPages/GestorInventarios.git
 
 ### 2. Restaura la base de datos
 
-- En la carpeta `/Database` encontrarás el script `CreateDatabase.sql`.
-- Ábrelo con SQL Server Management Studio y ejecútalo para crear la base de datos, tablas y registros de ejemplo.
+- Dentro de la carpeta `/Database` encontrarás el script `CreateDatabase.sql`.
+- Ábrelo con SQL Server Management Studio y ejecútalo para crear la base de datos, las tablas y algunos registros de ejemplo.
 
 ---
 
@@ -41,7 +41,7 @@ Ejemplo:
 
 ### 4. Compila y ejecuta la aplicación
 
-- Abre la solución `GestorInventarios.sln` en Visual Studio (recomendado VS 2019 o superior).
+- Abre la solución `GestorInventarios.sln` en Visual Studio (VS 2019 o superior recomendado).
 - Selecciona la configuración **Release**.
 - Compila la solución (`Ctrl+Shift+B`).
 - El ejecutable estará en `/bin/Release/GestorInventarios.UI.exe`.
@@ -49,29 +49,24 @@ Ejemplo:
 
 ---
 
-### 5. ¿Qué incluye la aplicación?
+### 5. ¿Qué puedes hacer con la app?
 
-- **CRUD de Equipos y Departamentos**
-- **Filtros avanzados** por tipo, usuario, estado y departamento
-- **Exportación a Excel y PDF**
-- **Dashboard visual** con resumen de datos
-- **Validaciones robustas** (serial único, máximo 2 equipos por usuario, etc.)
-- **Interfaz alineada con la identidad visual de Asocebú**
-
----
-
-### 6. ¿Tienes problemas o dudas?
-
-- Revisa que tu SQL Server esté activo y la cadena de conexión sea correcta.
-- Si tienes algún error, revisa los mensajes en pantalla o contacta al desarrollador.
+- Crear, editar, consultar y desactivar equipos y departamentos
+- Filtrar equipos por tipo, usuario, estado y departamento
+- Exportar los datos a Excel y PDF
+- Ver un dashboard visual con los totales principales
+- Validaciones: serial único, máximo 2 equipos por usuario, campos obligatorios, etc.
+- Interfaz inspirada en la identidad visual de Asocebú
 
 ---
 
-## 📧 Contacto
+### 6. ¿Dudas o problemas?
 
-Si tienes preguntas, sugerencias o necesitas soporte, puedes escribir a:
+- Asegúrate de que tu SQL Server esté activo y la cadena de conexión sea correcta.
+- Si tienes algún error, revisa los mensajes en pantalla o escríbeme.
 
-- **Correo:** asocebu@asocebu.com
-- **Sitio web:** [https://www.asocebu.com](https://www.asocebu.com)
+---
 
-¡Gracias por probar el Gestor de Inventarios Asocebú! 
+## 📧 Contacto del desarrollador
+
+- **Correo:** sebastianmarciales40@gmail.com
