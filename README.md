@@ -67,6 +67,19 @@ Ejemplo:
 
 ---
 
+### 7. Ejecutable listo para probar
+
+- El archivo ejecutable compilado (`GestorInventarios.UI.exe`) está disponible en la carpeta `/dist` del repositorio.
+- Solo necesitas configurar la cadena de conexión en `App.config` y hacer doble clic en el `.exe` para probar la aplicación sin necesidad de compilar.
+
+---
+
 ## 📧 Contacto del desarrollador
 
 - **Correo:** sebastianmarciales40@gmail.com
+
+### Nota importante sobre la cadena de conexión
+
+Si solo vas a ejecutar el programa desde el archivo `.exe` (sin abrir Visual Studio), **debes editar el archivo `GestorInventarios.UI.exe.config`** que está en la misma carpeta que el ejecutable. 
+
+Abre ese archivo con un editor de texto, busca la sección `<connectionStrings>` y ajusta la cadena de conexión según tu servidor SQL. Guarda los cambios y ejecuta el programa normalmente.
